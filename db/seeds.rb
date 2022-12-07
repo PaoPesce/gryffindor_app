@@ -8,56 +8,56 @@
 
 Character.create(
   name: 'Severus Snape',
-  review: 'Profesor de Pociones. Estudió con los padres de Harry. Desde el primer momento, Harry y él se demuestran una animadversión mutua.',
+  review: 'Profesor de Artes oscuras. En el pasado fue aliado y fiel a Valdemort. Estudió con los padres de Harry.',
   actor: 'Alan Rickman',
-  images_url: 'https://res.cloudinary.com/abdulaba/image/upload/v1669900365/Harry/Alastor-Ojoloco-Moody__seldth.jpg'
+  images_url: 'https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/media/imagenes/reportajes/los-personajes-clave-de-harry-potter/severus-snape_/4661809-1-esl-ES/Severus-Snape_.jpg?resize=980:*'
 )
 
 Character.create(
   name: 'Minerva McGonagall',
   review: 'Profesora de Transfiguración y Tutora de la Casa Gryffindor. Estricta pero justa. Una habitual de la saga.',
   actor: 'Maggie Smith',
-  images_url: 'https://res.cloudinary.com/abdulaba/image/upload/v1669900365/Harry/Cho-Chang__etm4ip.jpg'
+  images_url: 'https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/media/imagenes/reportajes/los-personajes-clave-de-harry-potter/minerva-mcgonagall_/4661789-1-esl-ES/Minerva-McGonagall_.jpg?resize=980:*'
 )
 
 Character.create(
   name: 'Draco Malfoy',
-  review: 'Procede de una rica familia de magos con querencia por las artes oscuras. Desde el primer día, Harry y él se declaran enemistad eterna.',
+  review: 'Procede de una rica familia de magos con querencia por las artes oscuras.',
   actor: 'Tom Felton',
-  images_url: 'https://res.cloudinary.com/abdulaba/image/upload/v1669900365/Harry/Cedric-Diggory__teeyto.jpg'
+  images_url: 'https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/media/imagenes/reportajes/los-personajes-clave-de-harry-potter/draco-malfoy_/4661784-1-esl-ES/Draco-Malfoy_.jpg?resize=980:*'
 )
 
 Character.create(
   name: 'Harry Potter',
-  review: 'El elegido. A los 11 descubre que es mago, que estudiará en Hogwarts y que Lord Voldemort asesinó a sus padres cuando él era un bebé.',
+  review: 'El elegido. A los 11 descubre que es mago y que estudiará en Hogwarts.',
   actor: 'Daniel Radcliffe',
   images_url: 'https://res.cloudinary.com/abdulaba/image/upload/v1669900365/Harry/Harry-Potter__htwqje.jpg'
 )
 
 Character.create(
   name: 'Ron Weasley',
-  review: 'El sexto de los siete hermanos Weasley. Empieza en Hogwarts a la vez que Harry. Coinciden en el tren y se hacen inseparables.',
+  review: 'El sexto de los siete hermanos Weasley. Empieza en Hogwarts a la vez que Harry.',
   actor: 'Rupert Grint',
   images_url: 'https://res.cloudinary.com/abdulaba/image/upload/v1669900365/Harry/Harry-Potter__htwqje.jpg'
 )
 
 Character.create(
   name: 'Hermione Granger',
-  review: 'La eterna amiga de Harry y Ron es toda una empollona. De no ser por sus conocimientos, las aventuras de Harry habrían sido diferentes.',
+  review: 'La eterna amiga de Harry y Ron, hija de muggles y la mejor estudiante de Hogwarts.',
   actor: 'Emma Watson',
   images_url: 'https://res.cloudinary.com/abdulaba/image/upload/v1669900365/Harry/Harry-Potter__htwqje.jpg'
 )
 
 Character.create(
   name: 'Rubeus Hagrid',
-  review: 'Enorme guardabosques de Hogwarts. Siente debilidad por los animales fieros y temibles. Por sus venas corre sangre de gigante.',
+  review: 'Enorme guardabosques de Hogwarts. Siente debilidad por los animales exoticos y temibles.',
   actor: 'Robbie Coltrane',
   images_url: 'https://res.cloudinary.com/abdulaba/image/upload/v1669900365/Harry/Harry-Potter__htwqje.jpg'
 )
 
 Character.create(
   name: 'Albus Dumbledore',
-  review: 'Director de Hogwarts. El mago más poderoso que ha existido. A medida que Harry crezca, le irá pasando las claves para vencer a Voldemort.',
+  review: 'Director de Hogwarts. El mago más poderoso que ha existido. Es como un padre para Harry Potter',
   actor: 'Richard Harris',
   images_url: 'https://res.cloudinary.com/abdulaba/image/upload/v1669900365/Harry/Harry-Potter__htwqje.jpg'
 )

@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get 'characters/new', to: 'characters#new'
   post 'characters', to: 'characters#create'
   get 'characters/:id/edit', to: 'characters#edit'
-  path 'characters/:id', to: 'characters#update'
+  patch 'characters/:id', to: 'characters#update'
   delete 'characters/:id', to: 'characters#destroy'
 
 
