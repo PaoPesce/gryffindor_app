@@ -1,0 +1,17 @@
+<div class="banner" style="background-image: linear-gradient(135deg, rgba(0,0,0,0.8)0%, rgba(0,0,0,0.2)75%), url(https://res.cloudinary.com/djkzewvwv/image/upload/v1666456184/development/david-everett-strickler-9QndjmrMeBE-unsplash_nrd4sy.jpg);">
+  <div class="m-5">
+    <h1 class="gradient-text" data-aos-duration="3000"> Gryffindor_app </h1>
+    <p><span data-controller="typed-js"></span></p>
+    <%= link_to "Encontrá tu personaje favorito", lists_path, class:"btn bubbly-button mt-5" %>
+  </div>
+</div>
+
+<%= render "pages/homecards" %>
+<div class="container">
+  <h2>Algunos de los personajes</h2>
+  <div class="cards my-4">
+    <% @gifts.sample(4).each do |gift| %>
+      <%= render "gifts/gift_card", gift: gift %>
+    <% end %>
+  </div>
+</div>

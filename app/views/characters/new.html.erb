@@ -1,12 +1,20 @@
-<form class="simple_form new_restaurant" id="new_restaurant" novalidate="novalidate" action="/restaurants" accept-charset="UTF-8" method="post">
+<form class="simple_form new_character" id="new_character" novalidate="novalidate" action="/characters" accept-charset="UTF-8" method="post">
   <input type="hidden" name="authenticity_token" value="6mcCvU7ZazpIBcJTptw/8y4EucmzccFWli7tFUzX6IJEx8wq6PFC7m4rA1Jy+W4YW1hlhYhSOyhZefWtOM5ofQ==">
-  <div class="mb-3 string optional restaurant_name">
-    <label class="string optional" for="restaurant_name">Name</label>
-    <input class="form-control string optional" type="text" name="restaurant[name]" id="restaurant_name">
+  <div class="mb-3 string optional character_name">
+    <label class="string optional" for="character_name">Name</label>
+    <input class="form-control string optional" type="text" name="character[name]" id="character_name">
   </div>
-  <div class="mb-3 string optional restaurant_address">
-    <label class="string optional" for="restaurant_address">Address</label>
-    <input class="form-control string optional" type="text" name="restaurant[address]" id="restaurant_address">
+  <div class="mb-3 string optional character_review">
+    <label class="string optional" for="character_review">Review</label>
+    <input class="form-control string optional" type="text" name="character[review]" id="character_review">
   </div>
-  <input type="submit" name="commit" value="Create Restaurant" data-disable-with="Create Restaurant">
+  <div class="mb-3 string optional character_actor">
+    <label class="string optional" for="character_actor">Actor</label>
+    <input class="form-control string optional" type="text" name="character[actor]" id="character_actor">
+  </div>
+  <div class="mb-3 string optional character_image">
+    <label class="string optional" for="character_image">image_url</label>
+    <input class="form-control string optional" type="text" name="character[image_url]" id="character_image">
+  </div>
+  <input type="submit" name="commit" value="Create Character" data-disable-with="Create Character">
 </form>
