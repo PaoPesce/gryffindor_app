@@ -1,0 +1,13 @@
+<h2><%= @character.name %></h2>
+<p><%= @character.review %></p>
+<p><%= @character.actor %></p>
+<p><%= @character.image_url %></p>
+
+<%= link_to "Delete",
+  character_path(@character),
+  data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}
+%>
+
+<a data-turbo-method="delete" data-turbo-confirm="Are you sure?" href="/characters/6">
+  Delete
+</a>
